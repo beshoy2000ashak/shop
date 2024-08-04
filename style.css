@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.edu-tas-beginner {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* ???????????????????????????????????????????????? */
+.data {
+  background-image: url(images/sc1.webp);
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  margin-left: 250px;
+  padding-top: 250px;
+  width: 430px;
+}
+
+.data .text h2 {
+  color: red;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.data .text h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.data .text p {
+  color: #c7c1bd;
+  font-size: 25px;
+}
+.data .text button {
+  padding: 15px 45px;
+  margin-top: 25px;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.data .text button:hover {
+  background-color: salmon;
+  color: black;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.col {
+  width: 80%;
+  display: flex;
+  margin: 0px auto;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+.col .imges-1 {
+  background-image: url(images/sc2.webp);
+  width: 26.666666%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 70px;
+}
+.col .imges-1 h2 {
+  margin-top: 350px;
+  margin-left: 150px;
+  color: white;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.col .imges-1 h2:hover {
+  color: cornflowerblue;
+}
+
+.col .imges-2 {
+  background-image: url(images/sc3.webp);
+  width: 26.666666%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0px;
+}
+.col .imges-2 h2 {
+  margin-top: 350px;
+  margin-left: 150px;
+  color: white;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.col .imges-2 h2:hover {
+  color: blueviolet;
+}
+
+.col .imges-3 {
+  background-image: url(images/sc4.webp);
+  width: 26.666666%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col .imges-3 h2 {
+  margin-top: 350px;
+  margin-left: 150px;
+  color: white;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.col .imges-3 h2:hover {
+  color: blue;
+}
+/* ////////////////////////////////////////// */
+.nav {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.nav .tr h2 {
+  font-size: 35px;
+  color: blueviolet;
+}
+.nav .il-data {
+  display: flex;
+}
+.nav .il-data ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 25px;
+}
+.nav .il-data li {
+  padding-left: 25px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.nav .il-data li:hover {
+  text-decoration: underline;
+  color: red;
+}
+hr {
+  width: 75%;
+  margin: 0 auto;
+  height: 5px;
+  color: aqua;
+}
+/* ??????????????????????????????????????????????? */
+.sale {
+  display: flex;
+  width: 75%;
+  margin: 0px auto;
+  margin-top: 12px;
+  justify-content: space-around;
+}
+.sale .ig {
+  padding-top: 25px;
+}
+.sale .da h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.sale .da p {
+  font-size: 25px;
+}
+.sale .da del {
+  color: rgb(155, 155, 98);
+  padding-left: 25px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.customer {
+  width: 100%;
+  /* text-align: center; */
+  background-color: rgb(243, 235, 217);
+  margin-top: 90px;
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+.customer h2 {
+  margin-bottom: 35px;
+  margin-left: 850px;
+}
+.customer .custo {
+  width: 950px;
+  margin-left: 550px;
+  font-size: 25px;
+}
+.customer .cu-im {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 850px;
+}
+.customer .cu-im h3 {
+  font-size: 30px;
+}
+.dat {
+  margin-left: 930px;
+}
+.you {
+  text-align: center;
+  margin: 60px 0;
+  font-size: 35px;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.last {
+  background-color: rgb(246, 246, 246);
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 45px;
+}
+.last .row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+.last .row .img-7 h3 {
+  text-align: start;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.last .row .img-7 h2 {
+  text-align: start;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+.last .row .img-7 p {
+  text-align: start;
+  padding-left: 10px;
+  width: 450px;
+  padding-bottom: 15px;
+}
+.last .row .img-7 .btn {
+  text-align: start;
+  padding-left: 10px;
+  text-decoration: underline;
+  font-size: 26px;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+.last .row .img-7 .btn:hover {
+  color: red;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.last .row .img-8 h3 {
+  text-align: start;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.last .row .img-8 h2 {
+  text-align: start;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+.last .row .img-8 p {
+  text-align: start;
+  padding-left: 10px;
+  width: 450px;
+  padding-bottom: 15px;
+}
+.last .row .img-8 .btn {
+  text-align: start;
+  padding-left: 10px;
+  text-decoration: underline;
+  font-size: 26px;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+.last .row .img-8 .btn:hover {
+  color: red;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.last .row .img-9 h3 {
+  text-align: start;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.last .row .img-9 h2 {
+  text-align: start;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+.last .row .img-9 p {
+  text-align: start;
+  padding-left: 10px;
+  width: 450px;
+  padding-bottom: 15px;
+}
+.last .row .img-9 .btn {
+  text-align: start;
+  padding-left: 10px;
+  text-decoration: underline;
+  font-size: 26px;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+.last .row .img-9 .btn:hover {
+  color: red;
+}
+/* """""""""""""""""""""""""""""""""""""""""""""""" */
+.fast .rom {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.fast .rom .text-1 h3 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+/* """""""""""""""""""""""""""""""""""""""""""""""""""" */
+.tfotar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-top: 50px;
+}
+.tfotar .trow {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.tfotar .trow .t-data h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.tfotar .trow .t-data p {
+  margin-left: 45px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.tfotar .trow input {
+  padding: 15px 55px;
+  margin-left: 5px;
+}
+.tfotar .trow .btn-fo {
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.tfotar .trow .btn-fo:hover {
+  background-color: teal;
+  color: bisque;
+}
+.tfotar .trow .fa-brands {
+  margin-left: 15px;
+  font-size: 40px;
+  color: rgb(191, 0, 255);
+  transform: rotate(180);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.tfotar .trow .fa-brands:hover {
+  transform: rotate(360deg);
+  color: cyan;
+}
+
+.fot {
+  color: rgb(39, 38, 35);
+  width: 80%;
+  margin: 0 auto;
+  height: 3px;
+}
+.tfotar .ff-fotar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tfotar .ff-fotar .f-imges {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.tfotar .ff-fotar .f-text h3 {
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.tfotar .ff-fotar .f-text h3:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.tfotar .ff-fotar .f-text p {
+  font-size: 20px;
+  line-height: 35px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.tfotar .ff-fotar .f-text p:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
+.fff {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+span {
+  color: red;
+}
